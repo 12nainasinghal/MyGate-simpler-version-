@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFCCBC"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="412dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="279dp"
+        android:gravity="center"
+        android:text="You've not raised any Tickets!!"
+        android:textColor="#D81B60"
+        android:textSize="25dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:background="@color/blue"
+        android:text="HOME"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck,TextContrastCheck"/>
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="211dp"
+        android:layout_height="241dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/pic31"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="412dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="329dp"
+        android:gravity="center"
+        android:text="Looks Like you didn't raise a complaint yet."
+        android:textColor="@color/accent"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="225dp"
+        android:background="@color/blue"
+        android:text="NEXT"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck" />
+</RelativeLayout>

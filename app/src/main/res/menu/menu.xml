@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/update"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:title="Updates"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/help"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Local Help"
+        app:showAsAction="always" />
+
+    <!--these items will be under the more
+        button of the Bottom navigation bar-->
+    <item
+        android:id="@+id/guard"
+        android:icon="@android:drawable/sym_action_call"
+        android:title="Call Guard"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+</menu>
